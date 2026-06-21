@@ -1,1 +1,877 @@
-# SSP.github.io
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="js/scripts.js"></script>
+    <title>St George RVA</title>
+  </head>
+  <body>
+    <header class="header" id="#">
+      <img src="img/logo.png" class="logo" />
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="#" class="main-nav-link">Home</a></li>
+          <li><a href="#about" class="main-nav-link">About</a></li>
+          <li><a href="#history" class="main-nav-link">History</a></li>
+          <li><a href="#events" class="main-nav-link">Events</a></li>
+          <li><a href="#gallery" class="main-nav-link">Gallery</a></li>
+          <li><a href="#resources" class="main-nav-link">Resources</a></li>
+          <li><a href="#connect" class="main-nav-link">Connect</a></li>
+          <li><a href="#give" class="main-nav-link nav-cta">Give</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav" aria-label="Mobile navigation">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="hero">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              Welcome to St George Malankara Orthdox Church Richmond VA
+            </h1>
+            <p class="hero-description">
+              We are dedicated to guiding individuals towards an encounter with
+              the transformative power of God. Our aspiration for each
+              individual is to have a meaningful moment in the presence of God.
+              Regardless of your background or previous church involvement, we
+              extend a warm welcome to you.
+            </p>
+            <a href="#connect" class="hero-link"> Connect With Us</a>
+          </div>
+          <div class="hero-img">
+            <div class="carousel-container">
+              <div class="carousel-slide active">
+                <img src="img/main-img.png" class="hero-image" alt="Church Hero" />
+              </div>
+              <div class="carousel-slide">
+                <img src="img/2026-Perunnal.jpeg" class="hero-image" alt="Perunnal Visit" />
+              </div>
+            </div>
+            <button class="carousel-prev" aria-label="Previous image">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </button>
+            <button class="carousel-next" aria-label="Next image">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="container about-us" id="about">
+        <div>
+          <span class="subheading">About Us</span>
+        </div>
+        <div>
+          <h2 class="heading-secondary">Discover Your Spiritual Home</h2>
+        </div>
+        <div class="grid grid-2-cols container grid-align-center">
+          <div class="about-us-text">
+            The Indian Orthodox Church (also known as the Malankara Orthodox
+            Church, Orthodox Church of the East, Malankara Orthodox Syrian
+            Church, Orthodox Syrian Church of the East), is a prominent member
+            of the Oriental Orthodox Church family. The Church traces its
+            origins to St. Thomas the Apostle, who came to India in AD 52,
+            established the Church and suffered martyrdom.The head of the Indian
+            Orthodox Church is the Catholicos of the East and Malankara
+            Metropolitan whose seat is at Kottayam, Kerala, India.
+          </div>
+          <div>
+            <img class="about-us-img" src="img/bishop-visit.webp" />
+          </div>
+          <!-- <div>
+            <img class="about-us-img" src="img/Achan1.jpg" />
+          </div>
+          <div class="about-us-text">
+            <div class="about-us-subheading">
+              Our Vicar, Rev. Fr. Laby George Panackamattom
+            </div>
+            Rev. Fr. Laby George Panackamattom hails from the Panackamattom
+            family of Niranam, known for its lineage of priests, and is the
+            oldest son of Fr. George and Mrs. Annie George Panackamattom. He was
+            highly involved in the MGOCSM student movement, serving as its
+            central committee secretary in 1992-1993, before being ordained as a
+            Priest on June 15th, 1999. Fr. Laby is married to Mrs. Merin Laby
+            and they are blessed with a daughter, Lydia Ann Laby, and a son,
+            Georgy Panackamattom Laby.
+          </div> -->
+          <div>
+            <img class="about-us-img" src="img/Picnic.webp" />
+          </div>
+          <div class="about-us-text">
+            <div class="about-us-subheading">Our Faith and Mission</div>
+            We believe in the Holy Trinity, Father, Son, and Holy Spirit, and
+            follow the basic faith established in the Universal Synods of Nicea,
+            Constantinople, and Ephesus. For us, Church is not just the
+            gathering of believers, but it is the holy catholic, apostolic
+            community built as Christ as the corner stone, prophets, apostles
+            and saints as the foundation, and all who are in Christ as its
+            building blocks. Our mission is to respond to the call of our Lord
+            Jesus Christ, to minister to those who are suffering and are in need
+            throughout the world, sharing with them God's gifts of food,
+            shelter, economic self-sufficiency and hope. Our congregation
+            continues to engage families to learn and practice tradition,
+            culture, and Biblical values. From studying the components of our
+            Liturgy to serving the community, the traditions of our forefathers
+            will continue to be the building blocks of our faith for future
+            generations.
+          </div>
+        </div>
+      </section>
+      <section class="container give-section" id="history">
+        <div>
+          <span class="subheading">Our History</span>
+        </div>
+        <div>
+          <h2 class="heading-secondary">Our Story at St George</h2>
+          <div class="about-us-text">
+            <div class="timeline">
+              <!-- 2010 Founding -->
+              <div class="event-container left">
+                <div class="event-content">
+                  <span class="date">November 20, 2010</span>
+                  <h3>Congregation Established / Founding</h3>
+                  <p>
+                    Began as a congregation. The first service was held at St.
+                    John's United Church of Christ, led by Rev. Fr. Laby George
+                    in the presence of Rev Fr. George Mathew (Benny Achen).
+                  </p>
+                  <p>
+                    Approved by Metropolitan Mathews Mar Barnabas. Mr. George P
+                    Thomas and Mr. Mathew Chacko were instrumental in
+                    coordinating the first service.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 2014 Worship -->
+              <div class="event-container right">
+                <div class="event-content">
+                  <span class="date">2014</span>
+                  <h3>Regular Worship & New Location</h3>
+                  <p>Initial monthly services became regular.</p>
+                  <p>
+                    Services were held at Westampton United Methodist Church
+                    (Location for 2014-2022), mostly led by Rev. Fr. George
+                    Mathew (Benny Achen).
+                  </p>
+                </div>
+              </div>
+
+              <!-- 2019 Sunday School -->
+              <div class="event-container left">
+                <div class="event-content">
+                  <span class="date">2019</span>
+                  <h3>Sunday School Begins</h3>
+                  <p>
+                    The Sunday school program was initiated. Rajan George served
+                    as the Sunday school principal at that time.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 2020-2021 Pause -->
+              <div class="event-container right">
+                <div class="event-content">
+                  <span class="date">2020 - 2021</span>
+                  <h3>COVID-19 Pause & Organization</h3>
+                  <p>Services were paused due to the COVID-19 pandemic.</p>
+                  <p>
+                    The group used this time to organize and formalize its
+                    structure.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 2021 Formalization -->
+              <div class="event-container left">
+                <div class="event-content">
+                  <span class="date">August 2021</span>
+                  <h3>Non-profit Registration</h3>
+                  <p>
+                    The group officially registered as the non-profit "St.
+                    George Malankara Orthodox Church of Richmond".
+                  </p>
+                  <p>The elected team included:</p>
+                  <ul>
+                    <li>President: Fr. George Mathew (Benny Achen)</li>
+                    <li>Vice President: Varughese Mathew</li>
+                    <li>Secretary: Bobby Mathews</li>
+                    <li>Treasurer: Baiju Cherian</li>
+                  </ul>
+                  <p>It also runs a regular Sunday School and a Choir.</p>
+                </div>
+              </div>
+
+              <!-- 2023 Growth & Move -->
+              <div class="event-container right">
+                <div class="event-content">
+                  <span class="date"> 2023 - 2025</span>
+                  <h3>Increased Services & New Church Home</h3>
+                  <p>The location was moved to St. Cyprian Orthodox Church.</p>
+
+                  <p>Church services increased to twice a month.</p>
+                  <p>Celebrated holy week and Christmas programs</p>
+                </div>
+              </div>
+
+              <!-- 2024 Current Status -->
+              <div class="event-container left">
+                <div class="event-content">
+                  <span class="date">November 2025</span>
+                  <h3>Raising the status to Parish</h3>
+                  <p>
+                    His Grace Zachariah Mar Nicholovos, Metropolitan of the
+                    Northeast American Diocese, visited the congregation and
+                    granted approval to elevate the status of St. George
+                    Malankara Orthodox Church of Richmond from a Congregation to
+                    a Parish.
+                  </p>
+                  <p>The first elected team included:</p>
+                  <ul>
+                    <li>President: Fr. Labby George</li>
+                    <li>Secretary: Sajeev Chandy</li>
+                    <li>Treasurer: Deepak Thannikkal Paul</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-events" id="events">
+        <div class="container">
+          <div class="events-leftsection">
+            <span class="subheading">Events</span>
+            <h2 class="heading-secondary">
+              Worship Services & Community Events
+            </h2>
+            <div class="about-us-text">
+              We regularly host worship services and community events to bring
+              our church together in faith and fellowship. Our events are
+              designed to nurture spiritual growth, foster a sense of community,
+              and provide opportunities for worship and service. From weekly
+              services to special celebrations and outreach programs, we strive
+              to create meaningful experiences for all members of our church
+              family. We warmly invite everyone to join us in these gatherings,
+              where we can grow spiritually and support one another in our faith
+              journey.
+            </div>
+          </div>
+          <div class="calendar-container">
+            <h3 class="calendar-title">Church Calendar</h3>
+            <iframe
+              src="https://calendar.google.com/calendar/embed?src=c_427d01b479e0ba598b1f5c8518cacfee46db1c3f415fbfe0f02e8041b874680e%40group.calendar.google.com&ctz=America%2FNew_York&mode=AGENDA"
+              style="border: 0"
+              width="100%"
+              height="600"
+              frameborder="0"
+              scrolling="no"
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+      <section class="section-gallery" id="gallery">
+        <div class="container">
+          <div>
+            <span class="subheading">Gallery</span>
+          </div>
+          <div>
+            <h2 class="heading-secondary">Our Church Community in Pictures</h2>
+          </div>
+          <div class="about-us-text">
+            Explore moments from our worship services, community events, and
+            celebrations. These images capture the spirit and fellowship of our
+            church family as we gather together in faith and love.
+          </div>
+          <div class="gallery-grid">
+            <div
+              class="gallery-item"
+              data-index="0"
+              data-title="Sunday Worship Service"
+              data-description="Join us for our weekly Sunday worship service as we come together in prayer, praise, and fellowship. Experience the transformative power of God's presence in our community."
+              data-date="November 2024"
+              data-category="Worship"
+            >
+              <img src="img/event1.jpg" alt="Church Service" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="1"
+              data-title="Community Fellowship"
+              data-description="Our church family gathering for a time of fellowship and connection. These moments strengthen our bonds and create lasting relationships in Christ."
+              data-date="October 2024"
+              data-category="Community"
+            >
+              <img src="img/event2.jpg" alt="Community Gathering" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="2"
+              data-title="Christmas Celebration"
+              data-description="Celebrating the birth of our Lord Jesus Christ with joyous worship, carols, and community. A blessed time of reflection and celebration."
+              data-date="December 2024"
+              data-category="Celebration"
+            >
+              <img src="img/event10.webp" alt="Church Celebration" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="3"
+              data-title="Holy Qurbana"
+              data-description="The Divine Liturgy (Holy Qurbana) - the sacred celebration of the Eucharist where we partake in the body and blood of Christ."
+              data-date="November 2024"
+              data-category="Worship"
+            >
+              <img src="img/event4.jpg" alt="Worship Service" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="4"
+              data-title="Church Anniversary"
+              data-description="Celebrating our church's anniversary with gratitude for God's faithfulness and the growth of our spiritual family over the years."
+              data-date="November 2024"
+              data-category="Celebration"
+            >
+              <img src="img/event5.jpg" alt="Church Event" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="5"
+              data-title="Sunday School Program"
+              data-description="Our children learning about faith, scripture, and traditions in our Sunday school program. Investing in the next generation of believers."
+              data-date="September 2024"
+              data-category="Education"
+            >
+              <img src="img/event6.jpg" alt="Community Fellowship" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="6"
+              data-title="Feast Day Celebration"
+              data-description="Honoring our patron saint and celebrating our faith heritage with special prayers, traditions, and community gathering."
+              data-date="November 2024"
+              data-category="Celebration"
+            >
+              <img src="img/event7.jpg" alt="Church Activity" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="7"
+              data-title="Bible Study Group"
+              data-description="Deepening our understanding of God's Word through weekly Bible study and discussion. Growing together in faith and knowledge."
+              data-date="October 2024"
+              data-category="Education"
+            >
+              <img src="img/event8.webp" alt="Celebration Event" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="8"
+              data-title="Youth Ministry"
+              data-description="Our youth gathering for fellowship, worship, and service. Empowering young people to live out their faith with passion and purpose."
+              data-date="September 2024"
+              data-category="Youth"
+            >
+              <img src="img/event9.webp" alt="Church Community" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="9"
+              data-title="Bible Study"
+              data-description="Weekly Bible study sessions where we dive deep into God's Word and grow together in understanding and faith."
+              data-date="October 2024"
+              data-category="Education"
+            >
+              <img src="img/event1.jpg" alt="Bible Study" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="10"
+              data-title="Community Outreach"
+              data-description="Reaching out to our local community with love, service, and the message of Christ's compassion."
+              data-date="November 2024"
+              data-category="Community"
+            >
+              <img src="img/event2.jpg" alt="Community Service" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="11"
+              data-title="Prayer Meeting"
+              data-description="Coming together in prayer and worship, seeking God's guidance and blessing for our church and community."
+              data-date="September 2024"
+              data-category="Worship"
+            >
+              <img src="img/event4.jpg" alt="Prayer Service" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="12"
+              data-title="Church Picnic"
+              data-description="Annual church picnic bringing families together for food, fellowship, and fun in God's beautiful creation."
+              data-date="August 2024"
+              data-category="Community"
+            >
+              <img src="img/event5.jpg" alt="Church Picnic" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="13"
+              data-title="Easter Celebration"
+              data-description="Celebrating the resurrection of our Lord Jesus Christ with joyous worship and community fellowship."
+              data-date="April 2024"
+              data-category="Celebration"
+            >
+              <img src="img/event6.jpg" alt="Easter Service" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="14"
+              data-title="Sunday School Graduation"
+              data-description="Celebrating our Sunday school students' achievements and their growth in faith and knowledge."
+              data-date="June 2024"
+              data-category="Education"
+            >
+              <img src="img/event7.jpg" alt="Sunday School" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="15"
+              data-title="Charity Drive"
+              data-description="Organizing and participating in charity drives to help those in need in our community and beyond."
+              data-date="July 2024"
+              data-category="Community"
+            >
+              <img src="img/event8.webp" alt="Charity Event" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="16"
+              data-title="Christmas Eve Service"
+              data-description="Midnight mass celebrating the birth of Christ with candlelight, carols, and holy communion."
+              data-date="December 2024"
+              data-category="Celebration"
+            >
+              <img src="img/event10.webp" alt="Christmas Eve" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="17"
+              data-title="Youth Conference"
+              data-description="Annual youth conference bringing together young people for worship, teaching, and fellowship."
+              data-date="October 2024"
+              data-category="Youth"
+            >
+              <img src="img/event9.webp" alt="Youth Conference" />
+            </div>
+            <div
+              class="gallery-item"
+              data-index="18"
+              data-title="Mission Trip"
+              data-description="Serving communities through mission trips, sharing God's love through practical service and support."
+              data-date="November 2024"
+              data-category="Community"
+            >
+              <img src="img/event1.jpg" alt="Mission Work" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-resources" id="resources">
+        <div class="container">
+          <div>
+            <span class="subheading">Resources</span>
+          </div>
+          <div>
+            <h2 class="heading-secondary">
+              Helpful Links & Spiritual Resources
+            </h2>
+          </div>
+          <div class="about-us-text">
+            Discover a collection of valuable resources to support your
+            spiritual journey, deepen your faith, and stay connected with our
+            Orthodox Christian community and heritage.
+          </div>
+
+          <div class="resources-grid">
+            <!-- Church & Diocese Resources -->
+            <div class="resource-category">
+              <h3 class="resource-category-title">
+                <ion-icon name="church-outline"></ion-icon>
+                Church & Diocese
+              </h3>
+              <ul class="resource-links">
+                <li>
+                  <a
+                    href="https://www.neamericandiocese.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Northeast American Diocese
+                  </a>
+                  <span class="resource-description"
+                    >Our parent diocese official website</span
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://mosc.in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Malankara Orthodox Church
+                  </a>
+                  <span class="resource-description"
+                    >Official website of the Indian Orthodox Church</span
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Spiritual & Educational Resources -->
+            <div class="resource-category">
+              <h3 class="resource-category-title">
+                <ion-icon name="book-outline"></ion-icon>
+                Spiritual & Educational
+              </h3>
+              <ul class="resource-links">
+                <li>
+                  <a
+                    href="https://drive.google.com/file/d/1-FnCRoPFCIqd9t-x17XgSu8F-ZPLIAGS/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Full Passion Week Liturgy
+                  </a>
+                  
+                  <span class="resource-description"
+                    >Holy Week prayers, liturgies, and worship materials</span
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://drive.google.com/file/d/149YsdQprgTnUkJeXxK80FU7reRmliRkW/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Holy Qurbana Liturgy
+                  </a>
+                  <span class="resource-description">Holy Qurbana Liturgy</span>
+                </li>
+                <li>
+                  <a
+                    href="https://drive.google.com/file/d/1CWq4zjqavy6N4-rdMEDSIdAEWAsgbxjV/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Song Book
+                  </a>
+                  <span class="resource-description"
+                    >Comprehensive Song Book</span
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Community & Media -->
+            <div class="resource-category">
+              <h3 class="resource-category-title">
+                <ion-icon name="people-outline"></ion-icon>
+                Community & Media
+              </h3>
+              <ul class="resource-links">
+                <li>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100090022502204"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Our Facebook Page
+                  </a>
+                  <span class="resource-description"
+                    >Stay updated with latest news and events</span
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://chat.whatsapp.com/DtTKRZ7O6TN2sE7sdo3iNm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    WhatsApp Community
+                  </a>
+                  <span class="resource-description"
+                    >Join our community chat for daily updates</span
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Youth & Family Resources -->
+            <div class="resource-category">
+              <h3 class="resource-category-title">
+                <ion-icon name="heart-outline"></ion-icon>
+                Youth & Family
+              </h3>
+              <ul class="resource-links">
+                <li>
+                  <a
+                    href="https://mgocsm.in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    MGOCSM
+                  </a>
+                  <span class="resource-description"
+                    >Mar Gregorios Orthodox Christian Student Movement</span
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://ocymonline.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    OCYM
+                  </a>
+                  <span class="resource-description"
+                    >Orthodox Christian Youth Movement</span
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://docs.google.com/document/d/1dUWE9f_NXdeUfOJlOdIT0bZ6m4rAxp_a-YHHFhrfQxg/edit?tab=t.0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Parish Membership Form
+                  </a>
+                  <span class="resource-description"
+                    >Parish Membership Form for the new members</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container connect-section" id="connect">
+        <div>
+          <span class="subheading">Connect</span>
+        </div>
+        <div>
+          <div>
+            <h2 class="heading-secondary">
+              We Believe God is Transforming Our Community!
+            </h2>
+            <div class="about-us-text">
+              Everyone interested in deepening their understanding of the
+              Malankara Orthodox faith or seeking to enhance their relationship
+              with God through worship is warmly invited. We meet regularly for
+              worship services, Bible studies, and various community events.
+              Whether you are new to the faith or have been a lifelong member,
+              there is a place for you here. Join us as we grow together in
+              faith and fellowship. The church schedule can be found under
+              <a href="#events" class="address-links">Events section</a>
+            </div>
+          </div>
+          <div class="connect-main">
+            <div class="address">
+              <p class="address-heading">Worship Address</p>
+              <address>
+                <p>2570 Huguenot Springs Rd, Midlothian, VA 23113.</p>
+                <p>
+                  Phone :
+                  <a class="address-links" href="tel:+18042445303">
+                    804 244 5303<br /></a
+                  >Email :
+                  <a class="address-links" href="mailto:contact@stgeorgerva.org"
+                    >contact@stgeorgerva.org</a
+                  >
+                  <br />Vicar :<a
+                    class="address-links"
+                    href="mailto:vicar@stgeorgerva.org"
+                    >vicar@stgeorgerva.org</a
+                  >
+                </p>
+              </address>
+            </div>
+
+            <div class="address">
+              <p class="address-heading">Social Media</p>
+              <address>
+                <p>
+                  <a
+                    class="address-links"
+                    href="https://www.facebook.com/profile.php?id=100090022502204"
+                    ><ion-icon name="logo-facebook"> </ion-icon> Facebook
+                  </a>
+                </p>
+                <p>
+                  <a
+                    class="address-links"
+                    href="https://chat.whatsapp.com/DtTKRZ7O6TN2sE7sdo3iNm"
+                  >
+                    <ion-icon name="logo-whatsapp"></ion-icon> WhatsApp</a
+                  >
+                </p>
+              </address>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container give-section" id="give">
+        <div>
+          <span class="subheading">Give</span>
+        </div>
+        <div>
+          <h2 class="heading-secondary">Give, and It Will be Given to You</h2>
+          <div class="about-us-text">
+            We sincerely appreciate your interest in supporting our cause. Our
+            church remains steadfast to this day, thanks to the Grace of God and
+            the generous contributions from our parishioners and visitors. Every
+            donation, no matter the amount, is valued and plays a crucial role
+            in furthering our mission of spreading the gospel and sanctifying
+            the faithful through worship within God's church. If you feel led to
+            contribute, please consider making a donation. May God bless you
+            abundantly for your generosity and support. Our Zelle:
+            stgeorgeocric@gmail.com
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Photo Overlay -->
+    <div class="photo-overlay" id="photoOverlay">
+      <div class="overlay-content">
+        <button
+          class="overlay-close"
+          id="overlayClose"
+          aria-label="Close overlay"
+        >
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+        <button
+          class="overlay-prev"
+          id="overlayPrev"
+          aria-label="Previous image"
+        >
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </button>
+        <div class="overlay-media">
+          <img class="overlay-image" id="overlayImage" src="" alt="" />
+          <div class="overlay-summary">
+            <p class="overlay-description" id="overlayDescription"></p>
+          </div>
+        </div>
+        <button class="overlay-next" id="overlayNext" aria-label="Next image">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container grid grid-footer">
+        <div class="footer-col logo-col">
+          <p class="footer-description">
+            St George Malankara Orthodox Church of Richmond, VA
+          </p>
+          <ul class="social-links">
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.facebook.com/profile.php?id=100090022502204"
+                aria-label="Facebook"
+                target="_blank"
+              >
+                <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://chat.whatsapp.com/DtTKRZ7O6TN2sE7sdo3iNm"
+                aria-label="WhatsApp"
+                target="_blank"
+              >
+                <ion-icon class="social-icon" name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <p class="footer-heading">Quick Links</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Home</a></li>
+            <li><a class="footer-link" href="#about">About Us</a></li>
+            <li><a class="footer-link" href="#history">History</a></li>
+            <li><a class="footer-link" href="#events">Events</a></li>
+            <li><a class="footer-link" href="#gallery">Gallery</a></li>
+            <li><a class="footer-link" href="#resources">Resources</a></li>
+            <li><a class="footer-link" href="#connect">Connect</a></li>
+            <li><a class="footer-link" href="#give">Give</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col address-col">
+          <p class="footer-heading">Contact Us</p>
+          <address class="footer-contacts">
+            <p class="footer-address">
+              2570 Huguenot Springs Rd,<br />
+              Midlothian, VA 23113
+            </p>
+            <p>
+              <a class="footer-link" href="tel:+18042445303">
+                <ion-icon class="contact-icon" name="call-outline"></ion-icon>
+                804 244 5303
+              </a>
+            </p>
+            <p>
+              <a class="footer-link" href="mailto:contact@stgeorgerva.org">
+                <ion-icon class="contact-icon" name="mail-outline"></ion-icon>
+                contact@stgeorgerva.org
+              </a>
+            </p>
+            <p>
+              <a class="footer-link" href="mailto:vicar@stgeorgerva.org">
+                <ion-icon class="contact-icon" name="mail-outline"></ion-icon>
+                vicar@stgeorgerva.org
+              </a>
+            </p>
+          </address>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; <span class="year"></span> St George Malankara Orthodox Church
+          of Richmond. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
